@@ -1,0 +1,43 @@
+#include <iostream>
+#include ¨biblioteca1.hpp¨
+using std::cout;  
+using std::cin; 
+
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	int B1, B2;
+cout<<¨ingrese el primer valor ¨;  
+cin>> B1; 
+cout<<¨ingrese el segundo valor ¨;  
+cin>> B2; 
+int respuesta=suma(B1,B2); 
+cout<<¨resultado de la suma es: ¨, respuesta;
+
+cout<<¨ingrese el primer valora restar:  ¨;  
+cin>> B1; 
+cout<<¨ingrese el segundo a restar: ¨;  
+cin>> B2; 
+int respuestaR=resta(B1,B2); 
+cout<<¨resultado de la resta es: ¨, respuestaR;
+
+cout<<¨ingrese el primer valora a multiplicar:  ¨;  
+cin>> B1; 
+cout<<¨ingrese el segundo a multiplicar: ¨;  
+cin>> B2; 
+int respuestaMulti=multiplicacion(B1,B2); 
+cout<<¨resultado de la multiplicacion es: ¨, respuestaMulti;
+
+cout<<¨ingrese el primer valora a dividir:  ¨;  
+cin>> B1; 
+cout<<¨ingrese el segundo valor a dividir: ¨;  
+cin>> B2; 
+int respuestaDivision=division(B1,B2); 
+cout<<¨resultado de la division es: ¨, respuestaDivision;
+
+system (¨pause¨); 
+
+
+return 0;
+}
